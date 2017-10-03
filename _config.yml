@@ -1,34 +1,39 @@
-# Welcome to Jekyll!
-#
-title: Spectral
-description: |
-  BSc + MSc in Informatics Engineering and Computing
-  Faculdade de Engenharia da Universidade do Porto
-  crafted by [HTML5 UP](http://html5up.net)
-owner: Diogo Marques
-first_published: 2017
-email: marques999@gmail.com
-baseurl: ""
-url: "https://marques999.github.io"
-social:
-  twitter: https://twitter.com/xmarques999
-  github: https://github.com/marques999
-  linkedin-square: https://linkedin.com/in/diogo-marques-a98290130/
-  facebook-official: https://facebook.com/marques999
-  google-plus-square: https://plus.google.com/u/0/114006488892497372994
-  #email: /contact/
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #deviantart:
-  #stackexchange:
-  #trello:
-  #bitbucket-square:
-  #slack:
-  #yelp:
-  #leanpub:
-  #connectdevelop:
-  #ils:
+title: Diogo Marques
+description: 'BSc + MSc in Informatics and Computer Engineering'
+url: 'https://marques999.github.io'
+baseurl: '/'
+google_analytics: 'UA-107396044-1'
+disqus_shortname: 'diogo-marques'
 
+author:
+  name: 'Diogo Marques'
+  email: marques999@gmail.com
+  twitter_username: xmarques999
+  facebook_username: marques999
+  github_username:  marques999
+  linkedin_username:  diogo-marques-a98290130
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
