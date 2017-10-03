@@ -3,7 +3,6 @@ description: 'BSc + MSc in Informatics and Computer Engineering @ FEUP'
 url: 'https://marques999.github.io'
 baseurl: '/'
 google_analytics: 'UA-107396044-1'
-disqus_shortname: 'diogo-marques'
 
 author:
   name: 'Diogo Marques'
