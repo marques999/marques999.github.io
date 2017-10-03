@@ -4,20 +4,15 @@
 @import "tables";
 @import "monokai";
 
-/* Modifications */
-
-pre.highlight,
-.highlight pre {
+pre.highlight, .highlight pre {
   padding: 10px;
 }
 
-pre.highlight code,
-.highlight pre code {
+pre.highlight code, .highlight pre code {
   white-space: pre-wrap;
 }
 
-.btn,
-.navigation__item a {
+.btn, .navigation__item a {
   margin: 5px 0;
   white-space: nowrap;
 }
@@ -27,8 +22,7 @@ pre.highlight code,
   padding: 10px;
 }
 
-.categories a,
-.tags a {
+.categories a, .tags a {
   border: 1px solid #e25440;
   border-radius: 20px;
   color: #e25440;
@@ -46,7 +40,7 @@ pre.highlight code,
 }
 
 .footer__copyright {
-    margin: 0 20px 10px;
+  margin: 0 20px 10px;
 }
 
 .user-image {
@@ -55,5 +49,5 @@ pre.highlight code,
   width: 100px;
   height: 100px;
   border: 3px solid #fff;
-  border-radius:100%;
+  border-radius: 100%;
 }
